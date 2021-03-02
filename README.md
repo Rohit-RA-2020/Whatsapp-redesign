@@ -1,6 +1,6 @@
 # whatsapp_redesign
 
-A new Flutter project.
+Redesigning Whastapp UI in flutter framework
 
 ## Getting Started
 
