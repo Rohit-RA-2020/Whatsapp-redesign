@@ -1,0 +1,26 @@
+[
+  {
+    "user_name": "Linus",
+    "user_img": "https://thispersondoesnotexist.com/image"
+  },
+  {
+    "user_name": "Mark",
+    "user_img": "https://webstockreview.net/images/faces-clipart-mans-face-12.png"
+  },
+  {
+    "user_name": "Tanenbaum",
+    "user_img": "https://www.villagevoice.com/wp-content/uploads/2018/02/RaMellRoss.jpg"
+  },
+  {
+    "user_name": "Dotcom",
+    "user_img": "https://0.academia-photos.com/85928461/20033007/19809313/s200_rohit.ranjan.jpg"
+  },
+  {
+    "user_name": "McAfee",
+    "user_img": "https://i.thecartoonist.me/cartoon-portrait-of-man-with-glasses.png"
+  },
+  {
+    "user_name": "Elon",
+    "user_img": "https://cdn.pixabay.com/photo/2019/02/18/20/02/face-4005302_1280.png"
+  }
+]
