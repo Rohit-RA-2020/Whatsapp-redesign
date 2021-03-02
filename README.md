@@ -2,6 +2,8 @@
 
 Redesigning Whastapp UI in flutter framework
 
+![alt text](https://github.com/Rohit-RA-2020/Whatsapp-redesign/blob/master/photos/Screenshot%202021-03-02%20151136.jpg)
+![alt text](https://github.com/Rohit-RA-2020/Whatsapp-redesign/blob/master/photos/Screenshot%202021-03-02%20151157.jpg)
 ## Getting Started
 
 This project is a starting point for a Flutter application.
