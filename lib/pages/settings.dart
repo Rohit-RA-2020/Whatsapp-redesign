@@ -21,14 +21,18 @@ class Settings extends StatelessWidget {
         ),
       ),
       body: Padding(
-        padding: const EdgeInsets.only(top: 50.0, left: 50.0),
+        padding: const EdgeInsets.only(top: 50.0, left: 10.0),
         child: Column(
           children: <Widget>[
             Row(
               children: [
-                CircleAvatar(
-                  backgroundColor: Colors.lightGreen,
-                  radius: 50,
+                Padding(
+                  padding: const EdgeInsets.only(left: 40.0),
+                  child: CircleAvatar(
+                    backgroundColor: Colors.lightGreen,
+                    radius: 50,
+                    backgroundImage: AssetImage('assets/images/rohit.jpg'),
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(12.0),
@@ -77,6 +81,10 @@ class Settings extends StatelessWidget {
               icon: Icons.help,
             ),
             Options(
+                title: "DATA AND STORAGE USAGE",
+                desc: "Network Usage, Auto Download",
+                icon: Icons.data_usage),
+            Options(
               title: "INVITE A FRIEND",
               desc: "",
               icon: Icons.people,
@@ -108,7 +116,7 @@ class Options extends StatelessWidget {
           radius: 40,
           child: Icon(
             icon,
-            size: 40,
+            size: 35,
             color: Colors.green,
           ),
         ),
@@ -120,7 +128,7 @@ class Options extends StatelessWidget {
               Text(
                 title,
                 style: GoogleFonts.lato(
-                  fontSize: 20,
+                  fontSize: 16,
                   fontWeight: FontWeight.bold,
                 ),
               ),
