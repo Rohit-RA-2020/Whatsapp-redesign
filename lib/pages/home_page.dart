@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_redesign/widgets/tabView.dart';
+import 'settings.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -42,11 +43,11 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                   return choices.skip(0).map((Choice choice) {
                     return PopupMenuItem<Choice>(
                       value: choice,
-                      child: FlatButton(
+                      child: TextButton(
                         onPressed: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => Profile()),
+                            MaterialPageRoute(builder: (context) => Settings()),
                           );
                         },
                         child: Text(
@@ -61,15 +62,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         ),
         body: TabView(),
       ),
-    );
-  }
-}
-
-class Profile extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Center(child: Text("Navigated to Profile screen")),
     );
   }
 }

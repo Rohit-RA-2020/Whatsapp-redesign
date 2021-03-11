@@ -148,7 +148,7 @@ class NewChatItem extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "Hey there! I am using Whastapp",
+                  "Hey there! I am using Whatsapp",
                   style: TextStyle(
                     color: Colors.grey,
                     fontWeight: FontWeight.bold,
