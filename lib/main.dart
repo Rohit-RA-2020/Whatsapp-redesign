@@ -4,6 +4,7 @@ import 'package:whatsapp_redesign/utils/routes.dart';
 import 'pages/home_page.dart';
 import 'pages/new_chat.dart';
 
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -20,3 +21,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+

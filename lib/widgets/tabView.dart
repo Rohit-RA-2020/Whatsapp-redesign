@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:whatsapp_redesign/pages/new_chat.dart';
+import 'package:whatsapp_redesign/widgets/CallLog.dart';
 import 'status_bar.dart';
 import 'package:whatsapp_redesign/widgets/chat_item.dart';
 
@@ -92,6 +93,7 @@ class _TabViewState extends State<TabView> with SingleTickerProviderStateMixin {
               ),
             ),
             Scaffold(
+              body: CallDetails(),
               floatingActionButton: FloatingActionButton.extended(
                 onPressed: () {},
                 label: Text('New Call'),
